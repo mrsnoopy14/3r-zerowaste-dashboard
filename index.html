@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3R ZeroWaste - Bin Monitoring Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- React & Babel from CDN for a simple, build-less setup -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- App code split into src/ like a small React project -->
+    <script type="text/babel" src="src/helpers.jsx"></script>
+    <script type="text/babel" src="src/components/SummaryCards.jsx"></script>
+    <script type="text/babel" src="src/components/ChartSummary.jsx"></script>
+    <script type="text/babel" src="src/components/StatusBadge.jsx"></script>
+    <script type="text/babel" src="src/components/Filters.jsx"></script>
+    <script type="text/babel" src="src/components/BinTable.jsx"></script>
+    <script type="text/babel" src="src/App.jsx"></script>
+    <script type="text/babel" src="src/main.jsx"></script>
+  </body>
+</html>
