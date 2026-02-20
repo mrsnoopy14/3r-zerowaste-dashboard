@@ -29,6 +29,12 @@ The goal is to help an operations team quickly see which bins need attention (fu
 - Babel Standalone (compiles JSX in the browser, so no build step)
 - Plain HTML + custom CSS (responsive dark UI)
 
+### Live demo
+
+Once GitHub Pages is enabled for this repository, the dashboard will be available at:
+
+- https://mrsnoopy14.github.io/3r-zerowaste-dashboard/
+
 ### How to run
 
 1. Export the provided Google Sheet as a CSV file and save it next to `index.html` as `bins.csv`.
@@ -82,7 +88,7 @@ If you prefer, you can also serve the folder with any static server (for example
 
 ### If I had more time
 
-- Load the actual CSV and parse it instead of using a hard-coded sample.
+- Hook the dashboard up to a real backend API instead of loading a static CSV file.
 - Add a proper light/dark mode toggle.
 - Extract components into separate files and use a bundler like Vite for a more realistic setup.
 - Add more detailed analytics over time (e.g. trends in days since last pickup vs bin fullness).
