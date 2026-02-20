@@ -58,6 +58,10 @@ Once GitHub Pages is enabled for this repository, the dashboard will be availabl
 
 - https://mrsnoopy14.github.io/3r-zerowaste-dashboard/
 
+## Video walkthrough
+
+- https://screenrec.com/share/kAo1eHqB7w
+
 ## Notes / future work
 
 - Hook the dashboard up to a real backend API instead of a static CSV.
